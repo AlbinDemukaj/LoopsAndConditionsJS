@@ -9,12 +9,118 @@
 <body>
     <script>
         //d1
-        let number = prompt('Enter the number: ')*1;
-        let sum=0;
-        for(let i=1;i<=number;i++){
-            sum=sum+i;
-        }
-        console.log(`The summation of every number from 1 to ${number} is ${sum}`);
+        // let number = prompt('Enter the number: ')*1;
+        // let sum=0;
+        // for(let i=1;i<=number;i++){
+        //     sum=sum+i;
+        // }
+        // console.log(`The summation of every number from 1 to ${number} is ${sum}`);
+
+        //d2 Request two numbers and find only their largest common divisor.
+        // let number1 = prompt('Enter the first number: ')*1;
+        // let number2 = prompt('Enter the second number: ')*1;
+        // if(number1<number2){
+        //     for(let i=1;i<=number1;i++){
+        //         if(number1%i==0 && number2%i==0){
+        //             largestCommonDivisor=i;
+        //         }
+        //     }
+        // }else{
+        //     for(let i=1;i<=number2;i++){
+        //         if(number1%i==0 && number2%i==0){
+        //             largestCommonDivisor=i;
+        //         }
+        //     }
+        // }
+        // console.log(`The largest common divisor for ${number1} and ${number2} is ${largestCommonDivisor}`);
+
+        //d3
+        // let number = prompt('Enter the number: ')*1;
+        //     for(let i=2;i<=number;i++){
+        //         if(number%i==0){
+        //             console.log(i);
+        //         }
+        //     }
+
+        //d4
+        // let number = prompt('Enter the number: ')*1;
+        // let digits=0;
+        // while(number > 0){
+        //     number = (number - number % 10) / 10;
+        //     digits++;
+        // }
+        // console.log(`The given number has ${digits} digits`);
+
+        //d5
+        // let positive=0;
+        // let negative=0;
+        // let zero=0;
+        // let odd=0;
+        // let even=0;
+        // let notNumbers=0;
+        // for(let i=1;i<=10;i++){
+        //     let number = prompt('Enter the number: ')*1;
+        //     if(number>0) {
+        //         positive++;
+        //         if(number%2==0)
+        //         even++;
+        //         else
+        //         odd++;
+        //     }
+        //     else if(number<0) {
+        //         negative++;
+        //         if(number%2==0)
+        //         even++;
+        //         else
+        //         odd++;
+        //     }else if (number==0){
+        //     zero++;}else{
+        //         notNumbers++;
+        //     }
+            
+        // }
+        // console.log(`There are: ${positive} positive numbers, ${negative} negative numbers, ${zero} zero numbers, ${even} even numbers, ${odd} odd numbers and ${notNumbers} invalid inputs`);
+        
+        //d6
+        // let answer=true;
+        // do{
+        //     let number1 = prompt('Enter first number; ')*1; 
+        //     let number2 = prompt('Enter second number; ')*1; 
+        //     let operater = prompt('Enter operater: ');
+        //     switch(operater){
+        //         case '*':
+        //              console.log(number1*number2);
+        //             break;
+        //         case '+':
+        //              console.log(number2+number1);
+        //             break;
+        //         case '-':
+        //         console.log(number1-number2);
+        //             break;
+        //         case '/':
+        //              console.log(number1/number2);
+        //             break;
+        //         default:
+        //              console.log("Not a valid operater");
+        //             break;
+        //     }  
+        //     let ask = prompt('Do you want to continue with another one?');
+        //     ask=(ask=="yes"||ask=="Yes")?answer=true:answer=false;
+        // }while(answer)
+
+        //d7
+        // let number=prompt('Enter the number: ');
+        // let digitsToMove = prompt('By how many digits you want to move it?');
+        // number1=(number-(number%(Math.pow(10,digitsToMove))))/(Math.pow(10,digitsToMove));
+        // Number(number1.toFixed(0));
+        // number3=number-number1*Math.pow(10,digitsToMove);
+        // console.log(`${number3}${number1}`);
+
+        //d9
+        // for(let i=1;i<=10;i++){
+        //     for(let j=1;j<=10;j++)
+        //     console.log(`${i}*${j}=${i*j}`);
+        // }
     </script>
 </body>
 </html>
